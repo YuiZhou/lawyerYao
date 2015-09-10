@@ -1,0 +1,402 @@
+[ 2015-08-01T04:23:10+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/addNews/username/bigyao/title/nihao/content/neirong/type/news/img/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+ERR: 参数错误或者未定义:img
+
+[ 2015-08-01T04:23:19+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/addNews/username/bigyao/title/nihao/content/neirong/type/news/img/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004054s ]
+ERR: 参数错误或者未定义:img
+
+[ 2015-08-01T04:23:31+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/addNews/username/bigyao/title/nihao/content/neirong/type/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0930s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('nihao','neirong','bigyao',NULL,'news') [ RunTime:0.0367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003189s ]
+
+[ 2015-08-01T04:31:43+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005508s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0378s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试','测试','littleyao','/yao/thinkphp/index.php//upload/1438374703zyw+hsy.jpg','direction') [ RunTime:0.0881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004721s ]
+
+[ 2015-08-01T04:34:09+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0243s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试','测试','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438374849zyw+hsy.jpg','direction') [ RunTime:0.0544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003116s ]
+
+[ 2015-08-01T04:34:31+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0484s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试','测试','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438374871zyw+hsy.jpg','direction') [ RunTime:0.0715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2015-08-01T04:35:00+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005414s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0485s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试','测试','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438374899img10_b.jpg','direction') [ RunTime:0.0599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003716s ]
+
+[ 2015-08-01T04:36:42+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0318s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试','测试','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438375001img10_b.jpg','direction') [ RunTime:0.0583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003204s ]
+
+[ 2015-08-01T04:37:30+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0198s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试','测试','littleyao','http://localhost/yao/thinkphp/index.php//upload/img10_b.jpg','direction') [ RunTime:0.0473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2015-08-01T04:38:20+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006359s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0383s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试','测试','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438375099img10_b.jpg','direction') [ RunTime:0.0611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2015-08-01T04:39:39+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0124s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('中国共产党万岁','我说的都是真话','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438375179zyw+hsy.jpg','brief') [ RunTime:0.0591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2015-08-01T04:42:10+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0110s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('中国共产党万岁','我说的都是真话','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438375330zyw+hsy.jpg','brief') [ RunTime:0.0643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2015-08-01T04:47:26+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004530s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0420s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('中国共产党万岁','我说的都是真话','littleyao','','brief') [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005919s ]
+
+[ 2015-08-01T04:47:40+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003413s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0021s ]
+
+[ 2015-08-01T04:47:43+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002873s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0704s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-01T04:47:43+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/littleyao/commentId/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003016s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0308s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 26 [ RunTime:0.0409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002828s ]
+
+[ 2015-08-01T04:51:38+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0239s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试使用','测试而已不要太当真','littleyao','http://localhost/yao/thinkphp/index.php//upload/1438375898IMG_5492.jpg','news') [ RunTime:0.0677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2015-08-01T04:53:05+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0441s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试使用','测试而已不要太当真','littleyao','http://localhost/yao//upload/1438375985IMG_5492.jpg','news') [ RunTime:0.0700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2015-08-01T05:06:14+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0023s ]
+
+[ 2015-08-01T05:06:20+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/littleyao/commentId/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0414s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 27 [ RunTime:0.2178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003808s ]
+
+[ 2015-08-01T05:06:21+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/littleyao/commentId/28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002776s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0268s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 28 [ RunTime:0.0427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004101s ]
+
+[ 2015-08-01T05:06:21+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/littleyao/commentId/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0224s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 29 [ RunTime:0.0379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003169s ]
+
+[ 2015-08-01T05:06:22+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/littleyao/commentId/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0334s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 30 [ RunTime:0.0511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003178s ]
+
+[ 2015-08-01T05:06:23+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008234s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0011s ]
+
+[ 2015-08-01T05:06:28+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/littleyao/commentId/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0275s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 53 [ RunTime:0.0446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2015-08-01T05:06:30+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003518s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0011s ]
+
+[ 2015-08-01T11:23:13+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyaoA' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003073s ]
+
+[ 2015-08-01T11:23:20+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005354s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyap' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002814s ]
+
+[ 2015-08-01T11:23:29+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003100s ]
+
+[ 2015-08-01T11:23:29+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0019s ]
+
+[ 2015-08-01T11:25:11+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-01T11:25:12+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/bigyao/commentId/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003928s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0322s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'bigyao' AND `comment_id` = 27 [ RunTime:0.0457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003118s ]
+
+[ 2015-08-01T11:27:25+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0163s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('添加新文章','新文章的内容，并且添加了一个预览用的图片。这个发布的是审判指导与参考的类别。','bigyao','http://localhost/yao//upload/1438399645bdlogo.png','direction') [ RunTime:0.0612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+

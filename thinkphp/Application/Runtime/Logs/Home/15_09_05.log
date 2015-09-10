@@ -1,0 +1,70 @@
+[ 2015-09-05T17:22:36+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getLatestCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.125566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021299s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0599s ]
+SQL: SELECT `id`,`thumb`,`content`,`title` FROM `news` ORDER BY id desc LIMIT 3   [ RunTime:0.0224s ]
+
+[ 2015-09-05T17:23:18+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getLatestCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0227s ]
+SQL: SELECT `id`,`thumb`,`content`,`title`,`date` FROM `news` ORDER BY id desc LIMIT 3   [ RunTime:0.0013s ]
+
+[ 2015-09-05T17:24:20+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getLatestCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`thumb`,`content`,`title`,`date` FROM `news` ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+
+[ 2015-09-05T17:26:36+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getLatestCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002724s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0115s ]
+SQL: SELECT `id`,`thumb`,`content`,`title`,`date` FROM `news` ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+
+[ 2015-09-05T17:30:26+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getLatestCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0135s ]
+SQL: SELECT `id`,`thumb`,`content`,`title`,`date` FROM `news` ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+
+[ 2015-09-05T17:30:54+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getLatestCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0088s ]
+SQL: SELECT `id`,`thumb`,`content`,`title`,`date` FROM `news` ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+
+[ 2015-09-05T17:33:44+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getLatestCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1209s ]
+SQL: SELECT `id`,`thumb`,`content`,`title`,`date` FROM `news` ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+

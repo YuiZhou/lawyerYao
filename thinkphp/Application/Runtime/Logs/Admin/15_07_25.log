@@ -1,0 +1,78 @@
+[ 2015-07-25T02:05:15+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+
+[ 2015-07-25T02:08:13+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016304s ]
+
+[ 2015-07-25T02:08:33+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002748s ]
+
+[ 2015-07-25T02:14:27+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/addNews/username/bigyao/title/bigyao/content/%E5%98%BF%E5%98%BF%E5%98%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0147s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`) VALUES ('bigyao','嘿嘿嘿','bigyao') [ RunTime:0.1046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2015-07-25T02:22:37+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/addNews/username/bigyao/title/bigyao/content/%E5%98%BF%E5%98%BF%E5%98%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0147s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`) VALUES ('bigyao','嘿嘿嘿','bigyao') [ RunTime:0.0581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2015-07-25T12:19:54+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015097s ]
+

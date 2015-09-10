@@ -1,0 +1,96 @@
+[ 2015-07-28T22:22:48+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getNewsCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:22:53+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getExplosionCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:22:58+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getDirectionCollections/number/3/length/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002329s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:03+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getBriefCollections/number/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:07+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getNewsCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002898s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:12+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getExplosionCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:17+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getDirectionCollections/number/3/length/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:22+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getNewsCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002238s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:22+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getBriefCollections/number/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:27+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getExplosionCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:32+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getDirectionCollections/number/3/length/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:23:37+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getBriefCollections/number/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:24:40+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getNewsCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004070s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:24:45+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getExplosionCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:24:51+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getDirectionCollections/number/3/length/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-07-28T22:24:56+08:00 ] ::1 /yao/thinkphp/index.php/index.php/Home/index/getBriefCollections/number/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002942s ]
+ERR: 无法加载模块:Index.php
+

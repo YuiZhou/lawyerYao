@@ -1,0 +1,1297 @@
+[ 2015-07-31T00:01:52+08:00 ] ::1 /yao/thinkphp/index.php//Home/Index/getType/type/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+ERR: 参数错误或者未定义:type
+
+[ 2015-07-31T00:01:57+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNewsCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0492s ]
+SQL: SELECT `id`,`thumb`,`content`,`title` FROM `news` WHERE ( `type` = 'news' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-31T00:01:57+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getExplosionCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`thumb`,`content`,`title` FROM `news` WHERE ( `type` = 'explosion' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-31T00:01:58+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getDirectionCollections/number/3/length/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: select news.content, news.date, news.id, news.title, news.thumb, user.name, user.icon from news, user where news.type='direction' and news.author=user.username order by id desc limit 3 [ RunTime:0.0561s ]
+
+[ 2015-07-31T00:01:58+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getBriefCollections/number/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0169s ]
+SQL: SELECT `id`,`title` FROM `news` WHERE ( `type` = 'brief' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+
+[ 2015-07-31T00:02:01+08:00 ] ::1 /yao/thinkphp/index.php//Home/Index/getType/type/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0136s ]
+SQL: SELECT `id`,`date`,`title` FROM `news` WHERE ( type='news' ) LIMIT 60   [ RunTime:0.0005s ]
+
+[ 2015-07-31T00:02:02+08:00 ] ::1 /yao/thinkphp/index.php//Home/Index/getType/type/direction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0106s ]
+SQL: SELECT `id`,`date`,`title` FROM `news` WHERE ( type='direction' ) LIMIT 60   [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:05+08:00 ] ::1 /yao/thinkphp/index.php//Home/Index/getType/type/explosion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0125s ]
+SQL: SELECT `id`,`date`,`title` FROM `news` WHERE ( type='explosion' ) LIMIT 60   [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:06+08:00 ] ::1 /yao/thinkphp/index.php//Home/Index/getType/type/brief
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0135s ]
+SQL: SELECT `id`,`date`,`title` FROM `news` WHERE ( type='brief' ) LIMIT 60   [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:17+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNews/newsId/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003922s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `news` WHERE `id` = 5  [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:17+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getRelatedLink/article/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0222s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 5 and `type` = 'reference' )  [ RunTime:0.0005s ]
+
+[ 2015-07-31T00:02:17+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getFriendlyLink/article/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0046s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 5 and `type` = 'friendly' )  [ RunTime:0.0003s ]
+
+[ 2015-07-31T00:02:25+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNews/newsId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002593s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0980s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3  [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:25+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getRelatedLink/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0088s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 3 and `type` = 'reference' )  [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:25+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getFriendlyLink/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0057s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 3 and `type` = 'friendly' )  [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:28+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNews/newsId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `news` WHERE `id` = 2  [ RunTime:0.0005s ]
+
+[ 2015-07-31T00:02:28+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getRelatedLink/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0117s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 2 and `type` = 'reference' )  [ RunTime:0.0005s ]
+
+[ 2015-07-31T00:02:28+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getFriendlyLink/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0073s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 2 and `type` = 'friendly' )  [ RunTime:0.0005s ]
+
+[ 2015-07-31T00:02:37+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNews/newsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `news` WHERE `id` = 7  [ RunTime:0.0009s ]
+
+[ 2015-07-31T00:02:37+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getRelatedLink/article/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0138s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 7 and `type` = 'reference' )  [ RunTime:0.0004s ]
+
+[ 2015-07-31T00:02:37+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getFriendlyLink/article/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0070s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 7 and `type` = 'friendly' )  [ RunTime:0.0004s ]
+
+[ 2015-07-31T19:03:38+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNewsCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010579s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0467s ]
+SQL: SELECT `id`,`thumb`,`content`,`title` FROM `news` WHERE ( `type` = 'news' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-31T19:03:38+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getExplosionCollections/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0152s ]
+SQL: SELECT `id`,`thumb`,`content`,`title` FROM `news` WHERE ( `type` = 'explosion' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-31T19:03:38+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getDirectionCollections/number/3/length/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+SQL: select news.content, news.date, news.id, news.title, news.thumb, user.name, user.icon from news, user where news.type='direction' and news.author=user.username order by id desc limit 3 [ RunTime:0.0447s ]
+
+[ 2015-07-31T19:03:39+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getBriefCollections/number/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003161s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0165s ]
+SQL: SELECT `id`,`title` FROM `news` WHERE ( `type` = 'brief' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0011s ]
+
+[ 2015-07-31T19:58:23+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011981s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0006s ]
+
+[ 2015-07-31T19:59:16+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003333s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0009s ]
+
+[ 2015-07-31T20:12:32+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+
+[ 2015-07-31T20:12:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+
+[ 2015-07-31T20:12:54+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002967s ]
+
+[ 2015-07-31T20:13:16+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003015s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0251s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:13:50+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002491s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0240s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:07+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003125s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0225s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:08+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004658s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0236s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004473s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0883s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006352s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0067s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0101s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008887s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0074s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0069s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000419s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0051s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0049s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005544s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0071s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0054s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0047s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0222s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-07-31T20:14:47+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `portfolio_image` WHERE ( `type` =1 )  [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:18:02+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002963s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0233s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =1 )  [ RunTime:0.0009s ]
+
+[ 2015-07-31T20:22:30+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003068s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:22:31+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005090s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:22:31+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002894s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0005s ]
+
+[ 2015-07-31T20:24:37+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003082s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0009s ]
+
+[ 2015-07-31T20:24:37+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-07-31T20:24:42+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000328s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-07-31T20:25:41+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002812s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0006s ]
+
+[ 2015-07-31T20:25:41+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-07-31T20:25:46+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-07-31T20:27:14+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:27:14+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006729s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0208s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =2 )  [ RunTime:0.0009s ]
+
+[ 2015-07-31T20:27:14+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003619s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0131s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =1 )  [ RunTime:0.0011s ]
+
+[ 2015-07-31T20:27:56+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003065s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0007s ]
+
+[ 2015-07-31T20:27:56+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0185s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =2 )  [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:27:56+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0141s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =1 )  [ RunTime:0.0009s ]
+
+[ 2015-07-31T20:44:47+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/search/key/%E5%98%BF%E5%98%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0197s ]
+SQL: SELECT id, title, date  FROM `news` WHERE `content` LIKE '%嘿嘿%' or `title` LIKE '%嘿嘿%' [ RunTime:0.0006s ]
+
+[ 2015-07-31T20:49:01+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/search/key/嘿
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000396s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0562s ]
+SQL: SELECT id, title, date  FROM `news` WHERE `content` LIKE '%嘿%' or `title` LIKE '%嘿%' [ RunTime:0.0010s ]
+
+[ 2015-07-31T20:50:04+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/search/key/嘿
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0179s ]
+SQL: SELECT id, title, date  FROM `news` WHERE `content` LIKE '%嘿%' or `title` LIKE '%嘿%' [ RunTime:0.0006s ]
+
+[ 2015-07-31T20:50:13+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/search/key/嘿
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004456s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0260s ]
+SQL: SELECT id, title, date  FROM `news` WHERE `content` LIKE '%嘿%' or `title` LIKE '%嘿%' [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:50:31+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNews/newsId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `news` WHERE `id` = 2  [ RunTime:0.0011s ]
+
+[ 2015-07-31T20:50:31+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getRelatedLink/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0248s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 2 and `type` = 'reference' )  [ RunTime:0.0009s ]
+
+[ 2015-07-31T20:50:31+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getFriendlyLink/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002505s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0170s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 2 and `type` = 'friendly' )  [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:50:58+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/search/key/嘿
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0319s ]
+SQL: SELECT id, title, date  FROM `news` WHERE `content` LIKE '%嘿%' or `title` LIKE '%嘿%' [ RunTime:0.0012s ]
+
+[ 2015-07-31T20:51:02+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/search/key/哈
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0235s ]
+SQL: SELECT id, title, date  FROM `news` WHERE `content` LIKE '%哈%' or `title` LIKE '%哈%' [ RunTime:0.0008s ]
+
+[ 2015-07-31T20:51:06+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getNews/newsId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003155s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `news` WHERE `id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T20:51:06+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getRelatedLink/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0111s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 1 and `type` = 'reference' )  [ RunTime:0.0005s ]
+
+[ 2015-07-31T20:51:07+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getFriendlyLink/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0133s ]
+SQL: SELECT `title`,`uri` FROM `link` WHERE ( `for_news` = 1 and `type` = 'friendly' )  [ RunTime:0.0005s ]
+
+[ 2015-07-31T21:22:14+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2015-07-31T21:22:14+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0105s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =2 )  [ RunTime:0.0004s ]
+
+[ 2015-07-31T21:22:14+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0072s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =1 )  [ RunTime:0.0004s ]
+
+[ 2015-07-31T21:22:44+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `portfolio_type` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `portfolio_type` ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+
+[ 2015-07-31T21:22:44+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0139s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =2 )  [ RunTime:0.0006s ]
+
+[ 2015-07-31T21:22:44+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getPortfilioImg/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `portfolio_image` [ RunTime:0.0083s ]
+SQL: SELECT `url` FROM `portfolio_image` WHERE ( `type` =1 )  [ RunTime:0.0006s ]
+
+[ 2015-07-31T23:16:26+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-07-31T23:16:35+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+
+[ 2015-07-31T23:17:33+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001559s ]
+
+[ 2015-07-31T23:18:27+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+
+[ 2015-07-31T23:19:04+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003234s ]
+
+[ 2015-07-31T23:20:22+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+
+[ 2015-07-31T23:20:42+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+
+[ 2015-07-31T23:20:43+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-07-31T23:21:00+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+
+[ 2015-07-31T23:21:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+
+[ 2015-07-31T23:22:26+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+
+[ 2015-07-31T23:28:39+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002403s ]
+
+[ 2015-07-31T23:28:40+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002700s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000261s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023904s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001705s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003759s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+
+[ 2015-07-31T23:28:41+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-07-31T23:28:59+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+
+[ 2015-07-31T23:29:00+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002523s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023405s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002214s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013840s ]
+
+[ 2015-07-31T23:29:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+
+[ 2015-07-31T23:29:02+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004288s ]
+
+[ 2015-07-31T23:30:08+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+
+[ 2015-07-31T23:30:08+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+
+[ 2015-07-31T23:30:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+
+[ 2015-07-31T23:30:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001922s ]
+
+[ 2015-07-31T23:30:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+
+[ 2015-07-31T23:30:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+
+[ 2015-07-31T23:30:09+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-07-31T23:30:10+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-07-31T23:30:35+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0510s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL ) ORDER BY id desc LIMIT 4   [ RunTime:0.0134s ]
+
+[ 2015-07-31T23:30:52+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+
+[ 2015-07-31T23:31:12+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0551s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL ) ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:32:36+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0551s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL ) ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+
+[ 2015-07-31T23:37:38+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004715s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0720s ]
+SQL: INSERT INTO `comment` (`for_news`,`for_comment`,`author`,`mail`,`content`) VALUES (NULL,NULL,'zhouyuwei','11302010067@fudan.edu.cn','哈哈哈') [ RunTime:0.0855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.092035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.092603s ]
+
+[ 2015-07-31T23:37:39+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004515s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0324s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL ) ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+
+[ 2015-07-31T23:42:22+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+
+[ 2015-07-31T23:42:49+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+
+[ 2015-07-31T23:43:14+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006180s ]
+
+[ 2015-07-31T23:44:51+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003570s ]
+NOTIC: [2] require_once(./Util/PHPMailer.class.php): failed to open stream: No such file or directory C:\wamp\www\yao\thinkphp\Application\Home\Common\function.php 第 18 行.
+
+[ 2015-07-31T23:48:13+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+
+[ 2015-07-31T23:48:49+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007400s ]
+NOTIC: [2] trim() expects parameter 1 to be string, object given C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 329 行.
+NOTIC: [2] include_once(class.smtp.php): failed to open stream: No such file or directory C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 516 行.
+NOTIC: [2] include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 516 行.
+
+[ 2015-07-31T23:49:57+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+NOTIC: [2] trim() expects parameter 1 to be string, object given C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 329 行.
+NOTIC: [2] include_once(class.smtp.php): failed to open stream: No such file or directory C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 516 行.
+NOTIC: [2] include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 516 行.
+NOTIC: [8192] Function eregi() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2015-07-31T23:49:58+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003374s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0612s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL ) ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+
+[ 2015-07-31T23:54:28+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0160s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL ) ORDER BY id desc LIMIT 4   [ RunTime:0.0007s ]
+
+[ 2015-07-31T23:59:26+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/postComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004023s ]
+NOTIC: [2] include_once(class.smtp.php): failed to open stream: No such file or directory C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 516 行.
+NOTIC: [2] include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 516 行.
+NOTIC: [8192] Function eregi() is deprecated C:\wamp\www\yao\thinkphp\Application\Home\Common\Util\PHPMailer.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003574s ]
+
+[ 2015-07-31T23:59:27+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/number/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0221s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL ) ORDER BY id desc LIMIT 4   [ RunTime:0.0016s ]
+

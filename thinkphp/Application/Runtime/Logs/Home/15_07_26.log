@@ -1,0 +1,790 @@
+[ 2015-07-26T14:54:43+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getPreview/newsId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `news` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-26T15:37:04+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+
+[ 2015-07-26T15:37:23+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003061s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:13+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:13+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002932s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002738s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003071s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003129s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+ERR: 参数错误或者未定义:number
+
+[ 2015-07-26T15:38:23+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003560s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:13+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0240s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:13+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1413s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017583s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0241s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0464s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0341s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0426s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:14+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0194s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014074s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0329s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0276s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0121s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004099s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:39:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:46:47+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1109s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:46:47+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0131s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yao.0' doesn't exist
+
+[ 2015-07-26T15:52:57+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004888s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0016s ]
+
+[ 2015-07-26T15:55:30+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0008s ]
+
+[ 2015-07-26T15:55:31+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0011s ]
+
+[ 2015-07-26T15:55:31+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0005s ]
+
+[ 2015-07-26T15:55:31+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0005s ]
+
+[ 2015-07-26T15:55:31+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0006s ]
+
+[ 2015-07-26T17:54:11+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0010s ]
+
+[ 2015-07-26T17:56:20+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0018s ]
+
+[ 2015-07-26T18:14:02+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0009s ]
+
+[ 2015-07-26T18:18:01+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0016s ]
+
+[ 2015-07-26T18:20:33+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004007s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0016s ]
+
+[ 2015-07-26T18:20:36+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0012s ]
+
+[ 2015-07-26T18:33:42+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0020s ]
+
+[ 2015-07-26T18:34:22+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0015s ]
+
+[ 2015-07-26T18:34:36+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0013s ]
+
+[ 2015-07-26T18:34:55+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0011s ]
+
+[ 2015-07-26T18:44:52+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003852s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0017s ]
+
+[ 2015-07-26T18:47:50+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0015s ]
+
+[ 2015-07-26T18:50:59+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0014s ]
+
+[ 2015-07-26T18:51:29+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0017s ]
+
+[ 2015-07-26T18:57:35+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0011s ]
+
+[ 2015-07-26T19:00:19+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0014s ]
+
+[ 2015-07-26T19:00:44+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0007s ]
+
+[ 2015-07-26T19:02:18+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0014s ]
+
+[ 2015-07-26T19:02:40+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004954s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0006s ]
+
+[ 2015-07-26T19:04:30+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0018s ]
+
+[ 2015-07-26T20:42:30+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0006s ]
+
+[ 2015-07-26T20:43:16+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author` limit 3 [ RunTime:0.0006s ]
+
+[ 2015-07-26T23:39:28+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getDirectionCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004044s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0845s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tile' in 'field list'
+
+[ 2015-07-26T23:39:40+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getDirectionCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002756s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0831s ]
+SQL: SELECT `thumb`,`date`,`content`,`title` FROM `news` LIMIT 3   [ RunTime:0.0008s ]
+ERR: Think\Model:lastSql方法不存在！
+
+[ 2015-07-26T23:40:45+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getDirectionCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1116s ]
+SQL: SELECT `thumb`,`date`,`content`,`title` FROM `news` LIMIT 3   [ RunTime:0.0008s ]
+
+[ 2015-07-26T23:42:08+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getDirectionCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0243s ]
+SQL: SELECT `thumb`,`date`,`content`,`title` FROM `news` WHERE ( `type` = 'direction' ) LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2015-07-26T23:47:17+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author`  and `news`.`type`= 'news' limit 3 [ RunTime:0.0018s ]
+
+[ 2015-07-26T23:47:18+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getDirectionCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005176s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0196s ]
+SQL: SELECT `thumb`,`date`,`content`,`title` FROM `news` WHERE ( `type` = 'direction' ) LIMIT 3   [ RunTime:0.0008s ]
+
+[ 2015-07-26T23:49:50+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author`  and `news`.`type`= 'news' limit 3 [ RunTime:0.0016s ]
+
+[ 2015-07-26T23:49:50+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getDirectionCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004916s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0263s ]
+SQL: SELECT `thumb`,`date`,`content`,`title` FROM `news` WHERE ( `type` = 'direction' ) LIMIT 3   [ RunTime:0.0008s ]
+
+[ 2015-07-26T23:51:07+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getNewsCollection/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006158s ]
+SQL: select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author`  and `news`.`type`= 'news' limit 3 [ RunTime:0.0015s ]
+
+[ 2015-07-26T23:51:07+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getDirectionCollections/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0173s ]
+SQL: SELECT `thumb`,`date`,`content`,`title` FROM `news` WHERE ( `type` = 'direction' ) LIMIT 3   [ RunTime:0.0006s ]
+

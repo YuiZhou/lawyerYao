@@ -1,0 +1,342 @@
+[ 2015-07-24T21:24:52+08:00 ] ::1 /yao/thinkphp/index.php/Admin/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032412s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-07-24T21:25:37+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0601s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031670s ]
+
+[ 2015-07-24T21:25:44+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigya
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004159s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2015-07-24T21:25:51+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002711s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003050s ]
+
+[ 2015-07-24T21:26:10+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002756s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0793s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002784s ]
+
+[ 2015-07-24T21:26:11+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2015-07-24T21:26:26+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1070s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
+[ 2015-07-24T21:26:28+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002386s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002849s ]
+
+[ 2015-07-24T21:26:28+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002619s ]
+
+[ 2015-07-24T21:26:29+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1058s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002713s ]
+
+[ 2015-07-24T21:26:30+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002408s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0664s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002686s ]
+
+[ 2015-07-24T21:26:31+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002796s ]
+
+[ 2015-07-24T21:26:35+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003263s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002760s ]
+
+[ 2015-07-24T21:26:38+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002790s ]
+
+[ 2015-07-24T21:26:38+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2015-07-24T21:26:39+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003966s ]
+
+[ 2015-07-24T21:26:39+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004680s ]
+
+[ 2015-07-24T21:27:21+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002536s ]
+
+[ 2015-07-24T21:27:46+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003214s ]
+
+[ 2015-07-24T21:31:10+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0891s ]
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002764s ]
+
+[ 2015-07-24T21:37:29+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004269s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1292s ]
+NOTIC: [8] Undefined variable: data C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 10 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+
+[ 2015-07-24T21:39:08+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0859s ]
+NOTIC: [8] Undefined variable: data C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 11 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+
+[ 2015-07-24T21:39:20+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004227s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0412s ]
+NOTIC: [8] Undefined variable: data C:\wamp\www\yao\thinkphp\Application\Admin\Controller\IndexController.class.php 第 12 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+
+[ 2015-07-24T21:40:04+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0235s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+
+[ 2015-07-24T21:40:05+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1121s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+
+[ 2015-07-24T21:40:05+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003480s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0134s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+
+[ 2015-07-24T21:40:06+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/login/username/bigyao/password/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004800s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0235s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bigyao' in 'where clause'
+

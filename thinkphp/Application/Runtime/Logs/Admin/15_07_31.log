@@ -1,0 +1,92 @@
+[ 2015-07-31T23:41:18+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2015-07-31T23:41:19+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004171s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0013s ]
+
+[ 2015-07-31T23:41:22+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-31T23:41:22+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/bigyao/commentId/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0257s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'bigyao' AND `comment_id` = 25 [ RunTime:0.0781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004025s ]
+
+[ 2015-07-31T23:59:01+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'littleyao' AND `password` = 'littleyao' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002889s ]
+
+[ 2015-07-31T23:59:01+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0013s ]
+
+[ 2015-07-31T23:59:03+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:59:04+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/littleyao/commentId/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002946s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0337s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 25 [ RunTime:0.0741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003268s ]
+

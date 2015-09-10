@@ -1,0 +1,70 @@
+[ 2015-09-08T22:42:33+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012244s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0160s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,3   [ RunTime:0.0039s ]
+
+[ 2015-09-08T22:45:53+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/page/0/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003360s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0194s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.0009s ]
+
+[ 2015-09-08T22:48:15+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/page/0/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002678s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0275s ]
+SQL: SELECT `author`,`id`,`date`,`content` FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.0010s ]
+
+[ 2015-09-08T22:49:36+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment/page/0/number/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.0012s ]
+
+[ 2015-09-08T22:49:37+08:00 ] ::1 /yao/thinkphp/index.php/Home/index/getGlobalComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-09-08T22:55:47+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/page/0/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,3   [ RunTime:0.0007s ]
+
+[ 2015-09-08T23:04:38+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/page/0/number/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,3   [ RunTime:0.0005s ]
+

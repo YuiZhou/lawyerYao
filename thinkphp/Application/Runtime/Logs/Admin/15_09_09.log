@@ -1,0 +1,120 @@
+[ 2015-09-09T21:52:23+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 0  [ RunTime:0.0007s ]
+
+[ 2015-09-09T21:53:15+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0532s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 0  [ RunTime:0.0004s ]
+
+[ 2015-09-09T21:55:44+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 0  [ RunTime:0.0004s ]
+
+[ 2015-09-09T21:56:18+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 0  [ RunTime:0.0007s ]
+
+[ 2015-09-09T21:56:34+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 1  [ RunTime:0.0005s ]
+
+[ 2015-09-09T21:57:17+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 11  [ RunTime:0.0004s ]
+
+[ 2015-09-09T22:17:43+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 11  [ RunTime:0.0005s ]
+
+[ 2015-09-09T22:22:12+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003597s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 11  [ RunTime:0.0009s ]
+
+[ 2015-09-09T22:30:35+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 11  [ RunTime:0.0006s ]
+
+[ 2015-09-09T22:31:08+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 24  [ RunTime:0.0013s ]
+
+[ 2015-09-09T22:31:14+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 21  [ RunTime:0.0004s ]
+
+[ 2015-09-09T22:58:19+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 24  [ RunTime:0.0005s ]
+

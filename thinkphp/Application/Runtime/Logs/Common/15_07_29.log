@@ -1,0 +1,30 @@
+[ 2015-07-29T21:02:27+08:00 ] ::1 /yao/thinkphp/index.php/getRelatedLink/article/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+ERR: 无法加载模块:GetRelatedLink
+
+[ 2015-07-29T21:02:32+08:00 ] ::1 /yao/thinkphp/index.php/getFriendlyLink/article/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+ERR: 无法加载模块:GetFriendlyLink
+
+[ 2015-07-29T21:03:12+08:00 ] ::1 /yao/thinkphp/index.php/getRelatedLink/article/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:GetRelatedLink
+
+[ 2015-07-29T21:03:17+08:00 ] ::1 /yao/thinkphp/index.php/getFriendlyLink/article/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载模块:GetFriendlyLink
+
+[ 2015-07-29T21:06:06+08:00 ] ::1 /yao/thinkphp/index.php/getFriendlyLink/article/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+ERR: 无法加载模块:GetFriendlyLink
+

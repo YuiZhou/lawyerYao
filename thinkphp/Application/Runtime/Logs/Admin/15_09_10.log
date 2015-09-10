@@ -1,0 +1,10 @@
+[ 2015-09-10T21:01:25+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 21  [ RunTime:0.0004s ]
+

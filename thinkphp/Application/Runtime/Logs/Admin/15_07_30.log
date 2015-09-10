@@ -1,0 +1,933 @@
+[ 2015-07-30T20:52:12+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008431s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0133s ]
+
+[ 2015-07-30T20:52:17+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0240s ]
+
+[ 2015-07-30T20:52:33+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0218s ]
+
+[ 2015-07-30T20:52:38+08:00 ] ::1 /yao/thinkphp/index.php/Admin/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+ERR: 无法加载控制器:GetNotification
+
+[ 2015-07-30T20:52:44+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0223s ]
+
+[ 2015-07-30T20:52:59+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0112s ]
+
+[ 2015-07-30T20:53:00+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0138s ]
+
+[ 2015-07-30T20:53:00+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014100s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0365s ]
+
+[ 2015-07-30T20:53:00+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0172s ]
+
+[ 2015-07-30T20:53:00+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0057s ]
+
+[ 2015-07-30T20:53:01+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0086s ]
+
+[ 2015-07-30T20:53:01+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000412s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0055s ]
+
+[ 2015-07-30T20:53:01+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0117s ]
+
+[ 2015-07-30T20:53:24+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0204s ]
+
+[ 2015-07-30T20:54:06+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0246s ]
+
+[ 2015-07-30T20:54:35+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `notification` WHERE `user_id` = 'bigyao'  [ RunTime:0.0009s ]
+
+[ 2015-07-30T20:55:31+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/CommentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+ERR: 参数错误或者未定义:commentId
+
+[ 2015-07-30T20:55:48+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005388s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009448s ]
+
+[ 2015-07-30T20:55:52+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/CommentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+ERR: 参数错误或者未定义:commentId
+
+[ 2015-07-30T20:55:52+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `notification` WHERE `user_id` = 'bigyao'  [ RunTime:0.0008s ]
+
+[ 2015-07-30T20:55:54+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `notification` WHERE `user_id` = 'bigyao'  [ RunTime:0.0008s ]
+
+[ 2015-07-30T20:55:57+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `notification` WHERE `user_id` = 'bigyao'  [ RunTime:0.0008s ]
+
+[ 2015-07-30T20:55:57+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002963s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `notification` WHERE `user_id` = 'bigyao'  [ RunTime:0.0008s ]
+
+[ 2015-07-30T20:56:45+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/CommentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+ERR: 参数错误或者未定义:commentId
+
+[ 2015-07-30T20:56:45+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0242s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'bigyao' AND `comment_id` = 3 [ RunTime:0.0862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005242s ]
+
+[ 2015-07-30T20:56:46+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0135s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'bigyao' AND `comment_id` = 3 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-07-30T20:56:48+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/CommentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+ERR: 参数错误或者未定义:commentId
+
+[ 2015-07-30T20:56:48+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `notification` WHERE `user_id` = 'bigyao'  [ RunTime:0.0004s ]
+
+[ 2015-07-30T21:08:55+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004221s ]
+
+[ 2015-07-30T21:10:05+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/CommentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003336s ]
+ERR: 参数错误或者未定义:commentId
+
+[ 2015-07-30T21:10:08+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0015s ]
+
+[ 2015-07-30T21:17:19+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0009s ]
+
+[ 2015-07-30T21:20:31+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0015s ]
+
+[ 2015-07-30T21:21:06+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0007s ]
+
+[ 2015-07-30T21:22:03+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003406s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0015s ]
+
+[ 2015-07-30T21:22:24+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0018s ]
+
+[ 2015-07-30T21:22:34+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003640s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0006s ]
+
+[ 2015-07-30T21:22:50+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0007s ]
+
+[ 2015-07-30T21:25:13+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0010s ]
+
+[ 2015-07-30T21:31:39+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/CommentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+ERR: 参数错误或者未定义:commentId
+
+[ 2015-07-30T21:31:40+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0232s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'bigyao' AND `comment_id` = 3 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002663s ]
+
+[ 2015-07-30T21:32:20+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0008s ]
+
+[ 2015-07-30T21:32:26+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0011s ]
+
+[ 2015-07-30T21:32:50+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0006s ]
+
+[ 2015-07-30T21:34:55+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0008s ]
+
+[ 2015-07-30T21:35:05+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/readNotification/username/bigyao/commentId/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004507s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0103s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'bigyao' AND `comment_id` = 23 [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-07-30T21:35:08+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0007s ]
+
+[ 2015-07-30T21:42:35+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001714s ]
+
+[ 2015-07-30T21:42:37+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'yuizhou' AND `password` = 'ywzhouzzy' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2015-07-30T21:42:45+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2015-07-30T21:45:16+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2015-07-30T21:45:31+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009304s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2015-07-30T21:45:31+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0006s ]
+
+[ 2015-07-30T21:46:04+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002678s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'littleyao' AND `password` = 'littleyao' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002976s ]
+
+[ 2015-07-30T21:46:04+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0008s ]
+
+[ 2015-07-30T21:47:31+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0008s ]
+
+[ 2015-07-30T22:10:08+08:00 ] ::1 /yao/thinkphp/index.php/Admin/Index/getComment/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-30T22:31:17+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004055s ]
+
+[ 2015-07-30T22:31:17+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0007s ]
+
+[ 2015-07-30T22:31:29+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'littleyao' AND `password` = 'littleyao' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2015-07-30T22:31:29+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0006s ]
+
+[ 2015-07-30T22:31:57+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003255s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-30T22:32:07+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0012s ]
+
+[ 2015-07-30T22:32:45+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-30T22:33:59+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'littleyao' AND `password` = 'littleyao' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2015-07-30T22:33:59+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0007s ]
+
+[ 2015-07-30T22:34:02+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-07-30T22:34:08+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0012s ]
+
+[ 2015-07-30T22:34:12+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-30T22:34:24+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-30T22:38:02+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0016s ]
+
+[ 2015-07-30T22:38:09+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-30T22:38:09+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/littleyao/commentId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0110s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 3 [ RunTime:0.0475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2015-07-30T22:38:12+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0014s ]
+
+[ 2015-07-30T22:38:46+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'littleyao' AND `password` = 'littleyao' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2015-07-30T22:38:46+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0005s ]
+
+[ 2015-07-30T22:42:53+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003305s ]
+
+[ 2015-07-30T22:42:53+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0005s ]
+
+[ 2015-07-30T22:42:56+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-30T22:42:56+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/bigyao/commentId/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0090s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'bigyao' AND `comment_id` = 24 [ RunTime:0.1031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2015-07-30T22:44:45+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'littleyao' AND `password` = 'littleyao' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002354s ]
+
+[ 2015-07-30T22:44:45+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0009s ]
+
+[ 2015-07-30T22:44:48+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-30T22:44:48+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/littleyao/commentId/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0178s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 24 [ RunTime:0.0459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2015-07-30T22:57:49+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003452s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bigyao' AND `password` = 'bigyao' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2015-07-30T22:57:49+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/bigyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='bigyao' [ RunTime:0.0007s ]
+
+[ 2015-07-30T22:58:00+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'littleyao' AND `password` = 'littleyao' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2015-07-30T22:58:00+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0007s ]
+
+[ 2015-07-30T22:58:05+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getComment/commentId/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0682s ]
+SQL: SELECT * FROM `comment` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-30T22:58:06+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/readNotification/username/littleyao/commentId/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0254s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\wamp\www\yao\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `notification` WHERE `user_id` = 'littleyao' AND `comment_id` = 23 [ RunTime:0.0679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001836s ]
+
+[ 2015-07-30T23:53:12+08:00 ] ::1 /yao/thinkphp/index.php//Admin/Index/getNotification/username/littleyao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+SQL: SELECT comment.content, comment.id, comment.author, comment.date FROM comment, notification WHERE comment.id=notification.comment_id and notification.user_id='littleyao' [ RunTime:0.0007s ]
+
