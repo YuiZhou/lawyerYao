@@ -1,24 +1,18 @@
 <?php
-	session_start();
-	$isAdmin = false;
+	require(".\admin\sessionConf.php");
+	require("./conf/configure.php");
+	require("./conf/HttpClient.class.php");
+	$client = new HttpClient(HOST);
 	$reply = false;
-	$page = 0;
+	$page = 1;
 	$comment = 11;
-	$username = "";
-	if(isset($_SESSION["username"])){
-		$isAdmin = true;
-		$username = $_SESSION["username"];
-	}
-
+	$displayCount = 0;
+	$limit = $isAdmin ? 5 : 3;
 	if ($isAdmin && isset($_GET["comment"])) {
 		$reply = true;
 		$comment = $_GET["comment"];
 	}
 	if(isset($_GET["page"])) $page = $_GET["page"];
-
-	require("./conf/configure.php");
-	require("./conf/HttpClient.class.php");
-	$client = new HttpClient(HOST);
 ?>
 <!DOCTYPE html>
 <html>
@@ -47,7 +41,7 @@
 	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
 	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
 </head>
-<script type="application/x-javascript">
+	<script type="application/x-javascript">
 addEventListener("load", function() {
     setTimeout(hideURLbar, 0);
 }, false);
@@ -56,7 +50,7 @@ function hideURLbar() {
     window.scrollTo(0, 1);
 }
 </script>
-<script type="text/javascript">
+	<script type="text/javascript">
 jQuery(document).ready(function($) {
     $(".scroll").click(function(event) {
         event.preventDefault();
@@ -126,7 +120,7 @@ function check(form) {
     return true;
 }
 </script>
-<style type="text/css">
+	<style type="text/css">
 	body,td,th {
 		font-family: "Open Sans", sans-serif;
 	}
@@ -140,7 +134,7 @@ function check(form) {
 		color: rgba(5,76,75,1);
 	}
 </style>
-<!-- start-smoth-scrolling -->
+	<!-- start-smoth-scrolling -->
 
 <body onLoad="MM_preloadImages('images/7DD4.png','images/7D7B.png')">
 	<!-- banner -->
@@ -222,8 +216,10 @@ function check(form) {
 							<a name="“online”">在线咨询窗口 YAO'S ONLINE</a>
 						</h1>
 						<p>&nbsp;</p>
-						<form action="./cgi/comment.php" method="post" >
+						<form action="./cgi/comment.php?type=introduction" method="post" >
 							<p>
+								<input type="hidden" name="page" value="<?php echo $page;?>
+								">
 								<input type="text" placeholder="真实姓名" name="comment_name" id="comment_name" required>
 								<input type="text" placeholder="Email" name="comment_mail" id="comment_mail" required>
 								<input type="text" placeholder="性别" name="comment_gender" id="comment_gender" >
@@ -242,19 +238,27 @@ function check(form) {
 				</div>
 				<?php 
 					}
+
 			    	if($reply){
 			    		$url = "/Admin/Index/getComment/commentId/".$comment;
 			    	}else{
-			    		$limit = $isAdmin ? 5 : 3;
 			    		$url = "/Home/index/getGlobalComment/page/".$page."/number/".$limit;
 			    	}
-					if(!$client ->
-				get(LIB_PATH.$url)){
+
+			    	$replyUser = "";
+			    	$replyMail = "";
+
+					if(!$client -> get(LIB_PATH.$url)){
 						echo "网络错误";
 					}else{
 						$value = $client -> getContent();
 						$array = json_decode(trim($value), true);
+						$displayCount = count($array);
 						foreach ($array as $item) {
+							if($reply){
+								$replyUser = $item["author"];
+								$replyMail = $item["mail"];
+							}
 			    ?>
 				<div class="responses-response-fig responses-mid">
 					<div class="response-fig-text">
@@ -269,7 +273,7 @@ function check(form) {
 							<label>
 								<?php echo $item["date"]?></label>
 						</p>
-						<pre class="paragh" style="margin:1em 0; padding:0; border:none;background-color:transparent;font-size:15px"><?php 
+						<pre  style="margin:1em 0; padding:0; border:none;background-color:transparent;font-size:15px" class="paragh"><?php 
 		    	echo $item["content"]
 		    ?></pre>
 						<?php if($isAdmin && !$reply){ ?>
@@ -290,16 +294,31 @@ function check(form) {
 					<div class="comments">
 						<h1>回复留言</h1>
 						<p>&nbsp;</p>
-						<form>
+						<form action="./cgi/comment.php" method="post" >
 							<p>
-								<input type="hidden"/>
-								<input type="hidden"/>
-								<textarea name="textarea" required placeholder="回复留言"></textarea>
+								<input type="hidden" name="comment_to_id" value="<?php echo $comment; ?>" />
+								<input type="hidden" name="page" value="<?php echo $page;?>" />
+								<input type="hidden" name="comment_name" value="<?php echo $replyUser; ?>" />
+								<input type="hidden" name="comment_mail" value="<?php echo $replyMail; ?>" />
+								<textarea name="comment_content" required placeholder="回复留言"></textarea>
 								<input type="submit" value="发送留言"></p>
 						</form>
 					</div>
 				</div>
 				<?php 
+				}else{
+					?>
+				<div class="msg-right">
+					<?php if($page >
+					1){?>
+					<a href="contact.php?page=<?php echo ($page - 1)?>">&lt;&lt; 上一页</a>
+					&nbsp;&nbsp;
+					<?php }
+						if($displayCount == $limit){
+					?>
+					<a href="contact.php?page=<?php echo ($page + 1)?>">下一页 &gt;&gt;</a>
+					<?php }?></div>
+				<?php
 				}
 			?>
 				<h6>&nbsp;</h6>

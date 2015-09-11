@@ -1,4 +1,5 @@
 <?php
+require 'uploadImg.php';
 session_start();
 if(!isset($_SESSION["username"])){
 	header("location:../index.html");
@@ -8,40 +9,13 @@ $USER = $_SESSION["username"];
    require("../conf/HttpClient.class.php");
   $client = new HttpClient(HOST);
 
-if ((!empty($_FILES['file']['tmp_name']))
-||(($_FILES["file"]["type"] == "image/gif")
-|| ($_FILES["file"]["type"] == "image/jpeg")
-|| ($_FILES["file"]["type"] == "image/pjpeg"))
-)
-  {
-  if ($_FILES["file"]["error"] > 0)
-    {
-   echo "<script language=\"javascript\">location.href = 'javascript:history.back()'</script>";
-    }
-  else
-    {
-    // echo "Upload: " . $_FILES["file"]["name"] . "<br />";
-    // echo "Type: " . $_FILES["file"]["type"] . "<br />";
-    // echo "Size: " . ($_FILES["file"]["size"] / 1024) . " Kb<br />";
-    // echo "Stored in: " . $_FILES["file"]["tmp_name"];
-	$_FILES["file"]["name"] = time().$_FILES["file"]["name"];
-      
-      move_uploaded_file($_FILES["file"]["tmp_name"],
-      "../upload/" . $_FILES["file"]["name"]);
-      $filenpath = "http://".HOST.TEMP_PATH."/upload/".$_FILES["file"]["name"];
-      //echo "Stored in: " . "upload/" . $_FILES["file"]["name"];
-      
-      $data["img"] = $filenpath;
-
-// /username/bigyao/title/nihao/content/neirong/type/news
-      
-      
-			// }else{
-  	// 			echo $value;//"<script language=\"javascript\">location.href = 'javascript:history.back()'</script>";
-			// }
-
-    }
+$res = upload_img();
+if(!$res){
+  echo "
+<script language=\"javascript\">location.href = 'javascript:history.back()'</script>
+";
 }
+$data["img"] = upload_img();
 
 if((isset($_POST['type']))
 	&& (isset($_POST["title"]))

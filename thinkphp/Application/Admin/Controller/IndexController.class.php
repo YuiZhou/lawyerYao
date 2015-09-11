@@ -70,4 +70,26 @@ class IndexController extends Controller {
         $res = $model -> select($commentId);
         $this -> ajaxReturn($res,"json");
     }
+
+    public function updateInfo(){
+        $model = M("user");
+
+        $username = I("post.username");
+        $key = I("post.key");
+        $value = I("post.value");
+
+        $data[$key] = $value;
+        
+        $condition["username"] = $username;
+
+        //var_dump($data);
+        $result = $model->where($condition)->save($data);
+        if($result){
+            echo "true";
+            return true;
+        }else{
+            echo "false";
+            return false;
+        }
+    }
 }

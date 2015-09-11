@@ -1,0 +1,39 @@
+[ 2015-09-12T00:00:49+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/updateInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004653s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0312s ]
+SQL: UPDATE `user` SET `icon`='http://localhost/yao//upload/1441987249627730319693240033.jpg' WHERE `username` = 'BigYao' [ RunTime:0.0416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2015-09-12T00:01:27+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/updateInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0147s ]
+SQL: UPDATE `user` SET `icon`='http://localhost/yao//upload/1441987287bigyao.png' WHERE `username` = 'BigYao' [ RunTime:0.0545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2015-09-12T00:01:51+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/updateInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0149s ]
+SQL: UPDATE `user` SET `introduction`='这是我的个人介绍，我是一个厉害的人。' WHERE `username` = 'BigYao' [ RunTime:0.0830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+

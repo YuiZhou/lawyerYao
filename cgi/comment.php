@@ -18,6 +18,9 @@ $client = new HttpClient(HOST);
 $params["username"] = $_POST['comment_name'];
 $params["mail"] = $_POST['comment_mail'];
 $params["content"] = $_POST['comment_content'];
+$params["toComment"] = $_POST['comment_to_id'];
+
+$page = $_POST['page'];
 
 $res = $client -> quickPost(LIB_PATH."/Home/index/postComment", $params);
 
@@ -27,7 +30,7 @@ if($res == "true"){
 	$str = "留言失败";
 }
 
-header("Location: ../result.php?res=".$str."&url=contact.php");
+header("Location: ../result.php?res=".$str."&url=contact.php?page=".$page);
 ?>
 
 <!-- //here ends scrolling icon -->

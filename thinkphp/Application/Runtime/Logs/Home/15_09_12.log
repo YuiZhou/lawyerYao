@@ -1,0 +1,30 @@
+[ 2015-09-12T00:00:50+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002993s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0393s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.0008s ]
+
+[ 2015-09-12T00:01:29+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0272s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.0007s ]
+
+[ 2015-09-12T00:01:53+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004129s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0226s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.1085s ]
+

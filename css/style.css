@@ -3,7 +3,13 @@ body,html{
 	margin:0px;
 	font-family: 'Open Sans', sans-serif;
 	}
-
+pre{
+	margin:1em 0; 
+	padding:0; 
+	border:none;
+	background-color:transparent;
+	font-size:15px;
+}
 /*-- banner --*/
 .banner{
 	background:url(../images/banner.jpg) no-repeat 0px 0px #000;

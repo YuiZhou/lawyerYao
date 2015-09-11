@@ -10,8 +10,8 @@
     return $data;  
 }   
 
-function sendMail($mail, $toComment, $username, $content){
-	if($toComment == NULL || $mail == NULL || $content == NULL){
+function sendMail($mailAddr, $username, $content){
+	if($mailAddr == NULL || $content == NULL){
 		return;
 	}
 
@@ -28,7 +28,7 @@ try{
     $mail->Password = ""; // 邮局密码 &&&&&&&&&&&&&&&&&&&&&&&
     $mail->From = ''; //邮件发送者email地址 &&&&&&&&&&&&&&&&&&&&
     $mail->FromName = ""; //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-    $mail->AddAddress($mail, $username);//收件人地址，可以替换成任何想要接收邮件的email信箱,格式是AddAddress("收件人email","收件人姓名")
+    $mail->AddAddress($mailAddr, $username);//收件人地址，可以替换成任何想要接收邮件的email信箱,格式是AddAddress("收件人email","收件人姓名")
     
     $mail->IsHTML(true); // set email format to HTML //是否使用HTML格式
     $mail->Subject = '收到来自姚律师的邮件';//"PHPMailer测试邮件"; //邮件标题

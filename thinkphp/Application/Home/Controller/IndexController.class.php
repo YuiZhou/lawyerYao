@@ -38,25 +38,26 @@ class IndexController extends Controller {
     	$username=strip_tags($username);//去除html标记  
     	$username=preg_replace($pattern,'',$username);
 
-    	if($toComment == ""){
-	    	$model = M("comment");
-	    	$data["for_news"] = $article == "" ? NULL : $article;
-	    	$data["for_comment"] = $toComment == "" ? NULL : $toComment;
-	    	$data["author"] = $username;
-	    	$data["mail"] = $mail;
-	    	$data["content"] = $content;
-
-	    	//var_dump($data);
-            try{
-    	    	$res = $model -> add($data);
-            }catch(\Exception $e){
-                echo "false";
-                return false;
-            }
-	    }else{
+    	if($toComment != ""){
     		// echo "true";
-			sendMail($mail, $toComment, $username, $content);
+            // receiver's mail and username
+			sendMail($mail, $username, $content);
+            $username = "Admin";
     	}
+        $model = M("comment");
+        $data["for_news"] = $article == "" ? NULL : $article;
+        $data["for_comment"] = $toComment == "" ? NULL : $toComment;
+        $data["author"] = $username;
+        $data["mail"] = $mail;
+        $data["content"] = $content;
+
+        //var_dump($data);
+        try{
+            $res = $model -> add($data);
+        }catch(\Exception $e){
+            echo "false";
+            return false;
+        }
     	echo "true";
     	return true;
     }
@@ -230,5 +231,13 @@ class IndexController extends Controller {
     	// echo "false";
     	// return false;
     	// header("location:/yao/online.php");
+    }
+
+    function getUserInfo(){
+        $model = M("user");
+
+        $res = $model -> field("username, name, introduction, icon") -> select();
+
+        $this -> ajaxReturn($res, "json");
     }
 }
