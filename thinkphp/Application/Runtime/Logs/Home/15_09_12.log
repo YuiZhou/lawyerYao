@@ -28,3 +28,68 @@ INFO: [ app_begin ] --END-- [ RunTime:0.004129s ]
 SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0226s ]
 SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.1085s ]
 
+[ 2015-09-12T11:47:38+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0292s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.0008s ]
+
+[ 2015-09-12T11:56:09+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getGlobalComment/page/1/number/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_news` is NULL and `for_comment` is NULL ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_comment`=61 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_comment`=60 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_comment`=59 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_comment`=58 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `comment` WHERE ( `for_comment`=57 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-09-12T11:56:17+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.0004s ]
+
+[ 2015-09-12T11:58:25+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.0004s ]
+
+[ 2015-09-12T11:58:44+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0248s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.0005s ]
+
+[ 2015-09-12T11:59:13+08:00 ] ::1 /yao/thinkphp/index.php//Home/index/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT `username`,`name`,`introduction`,`icon` FROM `user`  [ RunTime:0.0004s ]
+

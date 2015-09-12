@@ -10,6 +10,12 @@ pre{
 	background-color:transparent;
 	font-size:15px;
 }
+
+.header, .header a{
+	 background-color:#2b2b2b; 
+	 color:#fdfdfd;
+	 padding: 5px;
+}
 /*-- banner --*/
 .banner{
 	background:url(../images/banner.jpg) no-repeat 0px 0px #000;

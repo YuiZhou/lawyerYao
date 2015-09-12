@@ -1,3 +1,9 @@
+<?php
+	require(".\admin\sessionConf.php");
+	require("./conf/configure.php");
+	require("./conf/HttpClient.class.php");
+	$client = new HttpClient(HOST);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -74,6 +80,9 @@ function MM_swapImage() { //v3.0
 </head>
 	
 <body onLoad="MM_preloadImages('images/7DD4.png','images/7D7B.png')">
+<?php
+writeHeader();
+?>
 <!-- banner -->
  <div class="banner1">
   <div class="container">

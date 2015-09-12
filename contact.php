@@ -137,6 +137,9 @@ function check(form) {
 	<!-- start-smoth-scrolling -->
 
 <body onLoad="MM_preloadImages('images/7DD4.png','images/7D7B.png')">
+	<?php
+		writeHeader();
+	?>
 	<!-- banner -->
 	<div class="banner1">
 		<div class="container">
@@ -248,7 +251,8 @@ function check(form) {
 			    	$replyUser = "";
 			    	$replyMail = "";
 
-					if(!$client -> get(LIB_PATH.$url)){
+					if(!$client ->
+				get(LIB_PATH.$url)){
 						echo "网络错误";
 					}else{
 						$value = $client -> getContent();
@@ -296,10 +300,14 @@ function check(form) {
 						<p>&nbsp;</p>
 						<form action="./cgi/comment.php" method="post" >
 							<p>
-								<input type="hidden" name="comment_to_id" value="<?php echo $comment; ?>" />
-								<input type="hidden" name="page" value="<?php echo $page;?>" />
-								<input type="hidden" name="comment_name" value="<?php echo $replyUser; ?>" />
-								<input type="hidden" name="comment_mail" value="<?php echo $replyMail; ?>" />
+								<input type="hidden" name="comment_to_id" value="<?php echo $comment; ?>
+								" />
+								<input type="hidden" name="page" value="<?php echo $page;?>
+								" />
+								<input type="hidden" name="comment_name" value="<?php echo $replyUser; ?>
+								" />
+								<input type="hidden" name="comment_mail" value="<?php echo $replyMail; ?>
+								" />
 								<textarea name="comment_content" required placeholder="回复留言"></textarea>
 								<input type="submit" value="发送留言"></p>
 						</form>

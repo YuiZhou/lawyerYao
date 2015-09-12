@@ -74,6 +74,9 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onLoad="MM_preloadImages('images/7DD4.png','images/7D7B.png')">
+<?php
+writeHeader();
+?>
   <!-- banner -->
   <div class="banner1">
     <div class="container">

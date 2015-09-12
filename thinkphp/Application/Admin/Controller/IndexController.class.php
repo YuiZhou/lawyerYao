@@ -71,6 +71,14 @@ class IndexController extends Controller {
         $this -> ajaxReturn($res,"json");
     }
 
+    public function getNotificationCount($username){
+        // SELECT COUNT(`comment_id`) FROM `notification` where `user_id` = "BigYao"
+        $model = M("notification");
+        $userCount = $model -> where('`user_id` = "'.$username.'"') -> count("comment_id");
+
+        echo $userCount;
+    }
+
     public function updateInfo(){
         $model = M("user");
 
