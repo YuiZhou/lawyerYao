@@ -4,8 +4,8 @@
   require("../conf/HttpClient.class.php");
   require("./uploadImg.php");
   $client = new HttpClient(HOST);
-  if(!$isAdmin || !isset($_GET["type"])){
-    header("Location:..\about.php");
+  if(!$isAdmin){
+    header("Location:..\index.php");
     return;
   }
 
@@ -24,21 +24,27 @@
       $content = $_POST["content"];
       $related = $_POST["linkJson"];
 
-      $data["username"] = $USER;
+      $data["username"] = $username;
       $data["title"] = $title;
       $data["content"] = $content;
       $data["type"] = $type;
-
-
-      if( !$client -> quickPost(LIB_PATH."/Admin/index/addNews/", $data)){
+      $data["related"] = $related;
+// var_dump($data);
+      if(!($value = $client -> quickPost(LIB_PATH."/Admin/index/addNews/", $data))){
   			// 更新失败
-        header("Location: ../result.php?res=上传文章&url=edit.php");
+        header("Location: ../result.php?res=网络连接错误，上传文章失败&url=edit.php");
         return;
   	  }
 
       // return the id of article
-			$value = $client -> getContent();
+			// $value = $client -> getContent();
       // post link
-			header("location:../blog.php");
+
+      // echo "content is :".$value;
+      if($value == "true"){
+        header("location:../blog.php");
+      }else{
+        header("Location: ../result.php?res=上传文章失败&url=edit.php");
+      }
   }
 ?>

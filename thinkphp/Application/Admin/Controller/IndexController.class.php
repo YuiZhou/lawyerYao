@@ -5,6 +5,9 @@ class IndexController extends Controller {
     public function index(){
     }
 
+    /************************
+     * Log in
+     */ 
     public function login() {
     	$model = M("user");
 		// sql = SELECT * FROM `user` WHERE `username` = '...' AND `password` = '...' 
@@ -21,6 +24,9 @@ class IndexController extends Controller {
     	header("location:/yao/login.php");
     }
 
+    /***************************
+     * Add articles
+     */
     public function addNews(){
         // INSERT INTO `yao`.`news` (`id`, `title`, `content`, `date`, `view`, `author`, `type`, `thumb`) VALUES (NULL, 'title', 'content', CURRENT_TIMESTAMP, '0', 'BigYao', 'brief', 'http://hiahia');
     	$model = M("news");
@@ -30,6 +36,14 @@ class IndexController extends Controller {
         $type = I("post.type");
         $img = I("post.img");
         $title = I("post.title");
+        $links = I("post.related");
+
+        // $username = "littleYao";
+        // $content = "test";
+        // $type = "news";
+        // $img = "http://localhost/yao//upload/1442126264p2250686172.jpg";
+        // $title = "title";
+        // $links = "[{\"title\":\"a\",\"uri\":\"d\"}]";
 
 
     	$data["title"] = $title;
@@ -40,13 +54,41 @@ class IndexController extends Controller {
         $data["type"] = $type;
 
     	$res = $model -> add($data);
-    	if($res){
-    		echo "true";
-    		return true;
+        // echo $model -> getLastSql();
+    	if($res == NULL){
+    		echo "false";
+    		return false;
     	}
-    	echo "false";
+        // add related link
+        $newsId = $res;
+        // $newsId = "32";
+
+        $links=str_replace ('\"','"', $links);
+
+        $array = json_decode(trim(htmlspecialchars_decode($links)), true);
+        // echo json_last_error();
+        if(count($array) == 0){ // no link to add
+            echo "true";
+            return true;
+        }
+        // var_dump($array);
+        for ($i  = 0; $i < count($array); $i++) {
+            $linkarr[$i]["for_news"] = $newsId;
+            $linkarr[$i]["type"] = "friendly";
+            $linkarr[$i]["title"] = $array[$i]["title"];
+            $linkarr[$i]["uri"] = $array[$i]["uri"];
+        }
+        $linkModel = M("link");
+        // var_dump($linkarr);
+        $linkModel -> addAll($linkarr);
+        // echo $linkModel -> getLastSql();
+        echo "true";
+        return true;
     }
 
+    /****************************
+     * Notifications
+     */
     public function getNotification($username){
         $model = M();
 
@@ -65,12 +107,6 @@ class IndexController extends Controller {
         // $this -> ajaxReturn($res,"json");
     }
 
-    public function getComment($commentId){
-        $model = M("comment");
-        $res = $model -> select($commentId);
-        $this -> ajaxReturn($res,"json");
-    }
-
     public function getNotificationCount($username){
         // SELECT COUNT(`comment_id`) FROM `notification` where `user_id` = "BigYao"
         $model = M("notification");
@@ -79,6 +115,18 @@ class IndexController extends Controller {
         echo $userCount;
     }
 
+    /****************************
+     * Comment
+     */
+    public function getComment($commentId){
+        $model = M("comment");
+        $res = $model -> select($commentId);
+        $this -> ajaxReturn($res,"json");
+    }
+
+    /**************************
+     * Information
+     */
     public function updateInfo(){
         $model = M("user");
 

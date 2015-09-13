@@ -251,8 +251,7 @@ function check(form) {
 			    	$replyUser = "";
 			    	$replyMail = "";
 
-					if(!$client ->
-				get(LIB_PATH.$url)){
+					if(!$client -> get(LIB_PATH.$url)){
 						echo "网络错误";
 					}else{
 						$value = $client -> getContent();

@@ -656,3 +656,442 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
 
+[ 2015-09-12T12:23:36+08:00 ] ::1 /yao/thinkphp/index.php/Admin/index/addNews/username/bigyao/title/bigyao/content/%E5%98%BF%E5%98%BF%E5%98%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0799s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`yao`.`news`, CONSTRAINT `news_ibfk_1` FOREIGN KEY (`author`) REFERENCES `user` (`username`))
+
+[ 2015-09-12T12:30:25+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0603s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002760s ]
+
+[ 2015-09-12T12:31:28+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0194s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('最新的法律法规','习大大说要裁军三十万，有三十万个黑社会小混混要出现了','BigYao','http://localhost/yao//upload/14420322881442032288icon.jpg','news') [ RunTime:0.0616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002687s ]
+
+[ 2015-09-12T12:33:46+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2015-09-12T12:33:48+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2015-09-12T12:35:05+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2015-09-12T12:37:21+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2015-09-12T12:39:37+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0169s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2015-09-12T13:08:14+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0235s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003284s ]
+
+[ 2015-09-12T13:08:53+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004235s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0650s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2015-09-12T19:18:41+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009935s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008500s ]
+
+[ 2015-09-12T19:23:13+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0248s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2015-09-12T19:26:33+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003714s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0270s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('测试使用','a','BigYao','','news') [ RunTime:0.0634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2015-09-12T19:26:36+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0231s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002721s ]
+
+[ 2015-09-12T19:27:26+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2015-09-12T19:27:35+08:00 ] fe80::6066:d1e6:3265:c457 /yao/thinkphp/index.php//Admin/index/addNews/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0132s ]
+SQL: INSERT INTO `news` (`title`,`content`,`author`,`thumb`,`type`) VALUES ('a','a','BigYao','','news') [ RunTime:0.0412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2015-09-12T19:27:38+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005007s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0267s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002757s ]
+
+[ 2015-09-12T19:36:13+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0267s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003355s ]
+
+[ 2015-09-12T19:40:14+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0205s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2015-09-12T19:42:18+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2015-09-12T19:43:11+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002795s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2015-09-12T19:46:24+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003234s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2015-09-12T22:47:52+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2015-09-12T22:49:02+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2015-09-12T22:50:08+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002729s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0758s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2015-09-12T22:52:11+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0261s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002292s ]
+
+[ 2015-09-12T22:52:40+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0858s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-09-12T22:57:19+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0262s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005226s ]
+
+[ 2015-09-12T22:58:34+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0202s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2015-09-12T23:00:42+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0702s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2015-09-12T23:01:16+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002757s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002026s ]
+
+[ 2015-09-12T23:02:00+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2015-09-12T23:04:12+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2015-09-12T23:27:53+08:00 ] ::1 /yao/thinkphp/index.php//Admin/index/getNotificationCount/username/BigYao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `notification` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `notification` WHERE ( `user_id` = "BigYao" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+

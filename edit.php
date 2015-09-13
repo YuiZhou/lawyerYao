@@ -254,7 +254,7 @@ writeHeader();
 			var index = linkArray.length;
 			linkArray[index] = new Array();
 			linkArray[index]["title"] = title;
-			linkArray[index]["href"] = href;
+			linkArray[index]["uri"] = href;
 			printLinkArray(linkArray);
 		}
 
@@ -262,7 +262,7 @@ writeHeader();
 			var str = "";
 			for (var i = 0; i < arr.length; i++) {
 				var title = arr[i]["title"];
-				var href = arr[i]["href"]; 
+				var href = arr[i]["uri"]; 
 				str += '<p title="'+href+'">'+title+'&nbsp;(<a href="#relatedLinkField" onclick="removeLink(\''+title+'\', \''+href+'\')">X</a>)</p>';
 			}
 
@@ -271,20 +271,27 @@ writeHeader();
 		}
 
 		function formatJson(arr){
-			var jsonArray = new Array();
-			for (var i = 0; i < arr.length; i++) {
-				var title = arr[i]["title"];
-				var href = arr[i]["href"]; 
-				jsonArray[i] = '{"title":"'+title+'","href":"'+href+'"}';
+			var json = "[";
+			if(arr.length == 0){
+				return;
 			}
-			var json = JSON.stringify(jsonArray);
+
+			var title = arr[0]["title"];
+			var href = arr[0]["uri"]; 
+			json += "{\"title\":\""+title+"\",\"uri\":\""+href+"\"}";
+			for (var i = 1; i < arr.length; i++) {
+				var title = arr[i]["title"];
+				var href = arr[i]["uri"]; 
+				json += ", {\"title\":\""+title+"\",\"uri\":\""+href+"\"}";
+			}
+			json += "]";
 			document.getElementById("linkJson").value = json;
 		}
 
 		function removeLink(title, href){
 			var lastIndex = linkArray.length - 1;
 			for (var i = 0; i <= lastIndex; i++) {
-				if(linkArray[i]["title"] == title && linkArray[i]["href"] == href){
+				if(linkArray[i]["title"] == title && linkArray[i]["uri"] == href){
 					linkArray[i] = linkArray[lastIndex];
 					linkArray.pop();
 					printLinkArray(linkArray);
