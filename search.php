@@ -74,13 +74,6 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
         </script>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=WvvNwxzxtnEo82ZG0avxlB6q">
-//v1.5版本的引用方式：src="http://api.map.baidu.com/api?v=1.5&ak=您的密钥"
-//v1.4版本及以前版本的引用方式：src="http://api.map.baidu.com/api?v=1.4&key=您的密钥&callback=initialize"
-</script>
-	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
-	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
-	<!-- start-smoth-scrolling -->
 </head>
 
 <body onLoad="MM_preloadImages('images/7DD4.png','images/7D7B.png')">
@@ -178,13 +171,7 @@ function MM_swapImage() { //v3.0
 			</div>
 			<div class="blog-right">
 				<div class="categories">
-					<div class="search">
-						<h3>关键词检索RESEARCH</h3>
-						<form action="./search.php" method="get" onsubmit="return check(this)">
-							<input type="text" placeholder="Search..." name="s" id="s" required>
-							<input type="submit" value="确认搜索">
-						</form>
-					</div>
+					<?php require "component/search.php";?>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -243,12 +230,6 @@ function MM_swapImage() { //v3.0
 			$().UItoTop({ easingType: 'easeOutQuart' });
 			
 		});
-		function check(form){
-			if(trim(form.s.value)=='') {
-		        form.s.value = "";
-		        return false;
-		    }
-		    return true;
-		}
+		
 	</script>
 	<!-- //here ends scrolling icon -->

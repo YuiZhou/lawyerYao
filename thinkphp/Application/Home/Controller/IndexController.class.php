@@ -95,7 +95,7 @@ class IndexController extends Controller {
     	return true;
     }
 
-    public function getGlobalComment($page = 0, $number = 3){
+    public function getGlobalComment($page = 1, $number = 3){
         $model = M("comment");
 
         //$sql = "select `user`.`name`, `user`.`icon`, `news`.`date`, `news`.`content` from `user`, `news` where `user`.`username` = `news`.`author`  and `news`.`type`= 'news' limit ".$number;
@@ -112,9 +112,9 @@ class IndexController extends Controller {
     /***************************************************
      * Batch get article information
      */
-    public function getLatestCollections($number){
+    public function getLatestCollections($number = 3, $page = 1){
         $model = M("news");
-        $res = $model -> field("id, thumb, content, title, date") -> where("`type` != 'portfolio'") -> order('id desc') -> limit($number) -> select(); //query($sql);
+        $res = $model -> field("id, thumb, content, title, date") -> where("`type` != 'portfolio'") -> order('id desc') -> page($page, $number)  -> select(); //query($sql);
 
         for ($i = 0; $i < count($res); $i++) {
             $res[$i]["content"] = cutArticle($res[$i]["content"], 500);
@@ -123,9 +123,9 @@ class IndexController extends Controller {
         $this -> ajaxReturn($res, "json");
     }
 
-    public function getNewsCollections($number){
+    public function getNewsCollections($number = 1, $page = 1){
     	$model = M("news");
-    	$res = $model -> field("id, thumb, content, title") -> where("`type` = 'news'") ->order('id desc') -> limit($number) -> select(); //query($sql);
+    	$res = $model -> field("id, thumb, content, title, date") -> where("`type` = 'news'") ->order('id desc') -> page($page, $number)  -> select(); //query($sql);
 
     	for ($i = 0; $i < count($res); $i++) {
     		$res[$i]["content"] = cutArticle($res[$i]["content"], 500);
@@ -134,9 +134,9 @@ class IndexController extends Controller {
     	$this -> ajaxReturn($res, "json");
     }
 
-    public function getExplosionCollections($number){
+    public function getExplosionCollections($number = 1, $page = 1){
     	$model = M("news");
-    	$res = $model -> field("id, thumb, content, title") -> where("`type` = 'explosion'") ->order('id desc') -> limit($number) -> select(); //query($sql);
+    	$res = $model -> field("id, thumb, content, title, date") -> where("`type` = 'explosion'") ->order('id desc') -> page($page, $number)  -> select(); //query($sql);
 
     	for ($i = 0; $i < count($res); $i++) {
     		$res[$i]["content"] = cutArticle($res[$i]["content"], 500);
@@ -145,9 +145,9 @@ class IndexController extends Controller {
     	$this -> ajaxReturn($res, "json");
     }
 
-    public function getDirectionCollections($number){
+    public function getDirectionCollections($number = 1, $page = 1){
         $model = M("news");
-        $res = $model -> field("id, thumb, content, title") -> where("`type` = 'direction'") ->order('id desc') -> limit($number) -> select(); //query($sql);
+        $res = $model -> field("id, thumb, content, title, date") -> where("`type` = 'direction'") ->order('id desc') -> page($page, $number)  -> select(); //query($sql);
 
         for ($i = 0; $i < count($res); $i++) {
             $res[$i]["content"] = cutArticle($res[$i]["content"], 500);
@@ -156,9 +156,9 @@ class IndexController extends Controller {
         $this -> ajaxReturn($res, "json");
     }
 
-    public function getPortfolioCollections($number){
+    public function getPortfolioCollections($number = 1, $page = 1){
         $model = M("news");
-        $res = $model -> field("id, thumb, content, title") -> where("`type` = 'portfolio'") ->order('id desc') -> limit($number) -> select(); //query($sql);
+        $res = $model -> field("id, thumb, content, title, date") -> where("`type` = 'portfolio'") ->order('id desc') -> page($page, $number)  -> select(); //query($sql);
 
         for ($i = 0; $i < count($res); $i++) {
             $res[$i]["content"] = cutArticle($res[$i]["content"], 500);
