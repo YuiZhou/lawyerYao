@@ -2,7 +2,6 @@
 	require(".\sessionConf.php");
 	require("../conf/configure.php");
 	require("../conf/HttpClient.class.php");
-	require("./uploadImg.php");
 	$client = new HttpClient(HOST);
 	if(!$isAdmin || !isset($_GET["id"])){
 		header("Location:..\index.php");

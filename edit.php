@@ -151,7 +151,7 @@ writeHeader();
 								<option value="news">最新法律法规</option>
 								<option value="direction">审判指导与参考</option>
 								<option value="explosion">最新法律法规解读</option>
-								<option value="brief">Brief</option>
+								<option value="portfolio">经典案例解析</option>
 							</select>
 							<input style="margin: 10px 0" type="text" placeholder="Title" name="title" id="title" required>
 							<input type="hidden" id="linkJson" name="linkJson" value="[]" />

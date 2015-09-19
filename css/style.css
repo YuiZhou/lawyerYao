@@ -1622,7 +1622,7 @@ p.text span{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	}
-.comments input[type="text"],.comments textarea, .comments select{
+.comments input[type="text"],.comments input[type="password"],.comments textarea, .comments select{
 	padding: 10px 10px 10px 10px;
 	background: #EDEDED;
 	width: 85%;

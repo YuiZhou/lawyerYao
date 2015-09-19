@@ -1,33 +1,39 @@
-<?php 
-  require(".\admin\sessionConf.php");
-  if($isAdmin){
-  	header("Location: dashboard.php");
-  }
-  require("./conf/configure.php");
-  require("./conf/HttpClient.class.php");
-  $client = new HttpClient(HOST);
-?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>姚律师在线·关于我们</title>
+	<title>姚律师在线·最新动态</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.useso.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.useso.com/css?family=Merriweather:400,400italic,300,300italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<style type="text/css">
-    body,td,th {
-  font-family: "Open Sans", sans-serif;
+		body,td,th {
+	font-family: "Open Sans", sans-serif;
+}
+a:link {
+	color: #054C4B;
 }
 a:hover {
-  color: #054C4B;
+	color: #009999;
 }
-h1 {
-  color: rgba(0,51,51,1);
+        h1 {
+	color: rgba(5,76,75,1);
 }
-        h5 {
-  color: rgba(5,76,75,1);
+h2 {
+	color: rgba(5,76,75,1);
+}
+h3 {
+	color: rgba(255,255,255,1);
+}
+h4 {
+	color: rgba(255,255,255,1);
+}
+h5 {
+	color: rgba(5,76,75,1);
+}
+h6 {
+	color: rgba(5,76,75,1);
 }
         </style>
 	<!-- js -->
@@ -37,20 +43,20 @@ h1 {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="Flatter Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-    Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-        function hideURLbar(){ window.scrollTo(0,1); } </script>
+				function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //for-mobile-apps -->
 	<!-- start-smoth-scrolling -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
 jQuery(document).ready(function($) {
-        $(".scroll").click(function(event){   
-          event.preventDefault();
-          $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-        });
-      });
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -77,9 +83,6 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onLoad="MM_preloadImages('images/7DD4.png','images/7D7B.png')">
-	<?php
-writeHeader();
-?>
 	<!-- banner -->
 	<div class="banner1">
 		<div class="container">
@@ -108,11 +111,12 @@ writeHeader();
 				</div>
 				<div class="top-nav">
 					<ul class="nav1">
+
 						<li>
 							<a href="main.html">综合首页</a>
 						</li>
 						<li>
-							<a href="blog.html">最新动态</a>
+							<a href="blog.html" class="active">最新动态</a>
 						</li>
 						<li>
 							<a href="frame.html">在线咨询</a>
@@ -121,17 +125,27 @@ writeHeader();
 							<a href="portfolio.html">经典案例</a>
 						</li>
 						<li>
-							<a href="about.html">关于我们</a>
+							<span class="para">
+								<a href="about.html">
+									<img src="images/row.png" width="121" height="54"  alt=""/>
+								</a>
+							</span>
+							<a href="about.html">
+								<span class="para">
+									<img src="images/row.png" width="121" height="54"  alt=""/>
+								</span>
+								关于我们
+							</a>
 						</li>
 					</ul>
 					<script> 
-                 $( "span.menu" ).click(function() {
-                 $( "ul.nav1" ).slideToggle( 300, function() {
-                 // Animation complete.
-                  });
-                 });
-              
-          </script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							
+					</script>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -141,35 +155,36 @@ writeHeader();
 	<!-- blog -->
 	<div class="blog">
 		<div class="container">
-			<div id="online" class="online">
-				<div class="comments">
+			<div class="blog-left">
+				<div class="blog-left-text">
+					<h3>
+						<a href="single.html">最新法律法规</a>
+						<a href="single.html">The News</a>
+					</h3>
+					<h4>
+						<a href="single.html">
+							<img src="images/61151708.jpg" alt=" " />
+						</a>
+					</h4>
+					<p>dsafdsfdsafdasdf</p>
 					<p>&nbsp;</p>
-					<a name=“online”>
-						<h1>登录</h1>
-					</a>
-
-					<form id="form" action = "admin/session.php" method="POST" enctype="multipart/form-data">
-						<p>
-							<select name="username">
-							<?php
-								if(!$client -> get(LIB_PATH."/Admin/index/getUsers")){
-									echo "网络错误";
-								}else{
-									$value = $client -> getContent();
-									$array = json_decode(trim($value), true);
-									$displayCount = count($array);
-									foreach ($array as $item) {
-							?>
-								<option value="<?php echo $item["username"]?>"><?php echo $item["name"]?></option>
-								<?php }}?>
-							</select>
-							<input style="margin: 10px 0" type="password" placeholder="密码" name="password" id="password" required>
-							<input type="submit" id="submit" value="登录"></p>
-					</form>
+					<h4>
+						<a href="single.html">更多文章&gt;&gt;</a>
+					</h4>
 				</div>
 			</div>
-			<div class="clearfix"></div>
+			<div class="blog-right">
+				<div class="categories">
+					<div class="search">
+						<h3>关键词检索RESEARCH</h3>
+						<form>
+							<input type="text" placeholder="Search..." required>
+							<input name="检索" type="submit" id="检索" value="确认搜索"></form>
+					</div>
+				</div>
+			</div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
 	<!-- //blog -->
 	<!-- footer -->
@@ -198,12 +213,15 @@ writeHeader();
 				</ul>
 			</div>
 			<div class="footer-right">
-				<p>Copyright &copy; 2015 姚律师在线</p>
-				<p>
-					All rights reserved. Learabesques
-					<a href="http://www.cssmoban.com/" ></a>
-					Studio
-				</p>
+				<div class="footer-right">
+					<p>Copyright &copy; 2015 姚律师在线</p>
+					<p>
+						All rights reserved. Learabesques
+						<a href="http://www.cssmoban.com/" ></a>
+						Studio
+					</p>
+				</div>
+				<p>&nbsp;</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -211,25 +229,18 @@ writeHeader();
 	<!-- //footer -->
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			var defaults = {
-			    containerID: 'toTop', // fading element id
-			  containerHoverID: 'toTopHover', // fading element hover id
-			  scrollSpeed: 1200,
-			  easingType: 'linear' 
-			};
-			*/
-
-			$().UItoTop({ easingType: 'easeOutQuart' });
-
-		});
-
-		function trim(str){ //删除左右两端的空格
-		　	return str.replace(/(^\s*)|(\s*$)/g, "");
-		}
-
-  </script>
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+	</script>
 	<!-- //here ends scrolling icon -->
-</body>
-</html>

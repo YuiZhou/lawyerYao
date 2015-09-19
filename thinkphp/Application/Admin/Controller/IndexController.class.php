@@ -18,10 +18,17 @@ class IndexController extends Controller {
     	$res = $model -> where($data) -> find();
 
     	if($res != null){
-    		header("location:/yao/admin/session.php?u=".$username);
-            return;
+            echo $res["name"];
+            return true;
     	}
-    	header("location:/yao/login.php");
+    	echo "false";
+        return false;
+    }
+
+    public function getUsers(){
+        $model = M("user");
+        $res = $model -> field("`name`,`username`") -> select();
+        $this -> ajaxReturn($res,"json"); 
     }
 
     /***************************

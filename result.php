@@ -3,9 +3,6 @@
   require("./conf/configure.php");
   require("./conf/HttpClient.class.php");
   $client = new HttpClient(HOST);
-  if(!$isAdmin){
-    header("Location:index.php");
-  }
 ?>
 <!DOCTYPE html>
 <html>
