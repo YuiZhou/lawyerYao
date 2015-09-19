@@ -27,7 +27,7 @@
 	          <div class="fig-txt">
 	            <div class="clearfix">
 	              <div class="blog-left-text blog-left-text-mid">
-	                <h1>最新动态</h1>
+	              <h1><a href="latest.php">最新动态</a></h1>
 	                <?php if( !$client -> get(LIB_PATH."/Home/index/getLatestCollections/number/3")){
 							echo "网络错误";
 						}else{
@@ -58,56 +58,54 @@
 			</div>
 		  </div>
 		  <div class="blog-right">
-		  <img src="images/yao.png" width="310" height="464"  alt="姚允才律师" style="marin-top:10px" />
+		        <?php
+        	if(!$client -> get(LIB_PATH."/Home/index/getUserInfo")){
+            echo "网络错误";
+          }else{
+            $value = $client -> getContent();
+            $array = json_decode(trim($value), true);
+            if(count($array) != 2){
+              echo "网络错误";
+            }else{
+              $bigYao = $array[0];
+           ?>
+		  <img src="<?php echo $bigYao["icon"];?>" width="310" alt="姚允才律师" style="marin-top:10px" />
 			<div class="men-text">
 			  <div class="clearfix"></div>
-				<h1 class="text">关于姚律师</h1>
+			  <h1 class="text"><a href="about.php">关于姚律师</a></h1>
 		    </div>
 			<div class="men-text men-text-mid">
 			  <div class="clearfix"></div>
-			  <p class="text">Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. </p>
+			  <p class="text"><?php echo $bigYao["introduction"];?></p>
 		    </div>
+		    <?php }}?>
 		  </div>
 		  <div class="blog-right">
 		    <div class="recent">
 		      <h1><a href="single.html">经典案例展示</a></h1>
+		      <?php 
+					if( !$client -> get(LIB_PATH."/Home/index/getPortfolioCollections/number/3")){
+						echo "网络错误";
+					}else{
+						$value = $client -> getContent();
+						$array = json_decode(trim($value), true);
+						foreach ($array as $item) {
+				?>
 		      <div class="fig-txt">
-		        <div class="fig-txt-fig"><img src="images/s-1.jpg" width="450" height="200"  alt=""/></div>
+		      <?php if($item["thumb"] != ""){?>
+		        <div class="fig-txt-fig"><img src="<?php echo $item["thumb"];?>" width="450" alt=""/></div>
+		        <?php }?>
 		        <div class="fig-txt-text">
 		          <p>
-		            <label>June 31,2015 at 12:30pm</label>
+		            <label><?php echo $item["date"];?></label>
 	              </p>
-		          <h5><a href="single.html">文章标题</a><a href="single.html">文章标题</a><a href="single.html">文章标题</a></h5>
-		          <p><span class="text">Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. </span></p>
+		          <h5><a href="single.html"><?php echo $item["title"];?></a></h5>
+		          <p><span class="text"><?php echo $item["content"];?></span></p>
 	            </div>
 		        <div class="clearfix"> </div>
 	          </div>
-		      <div class="fig-txt fig-txt-mid">
-		        <div class="fig-txt-fig"><img src="images/s-1.jpg" width="450" height="200"  alt=""/></div>
-		        <div class="fig-txt-text">
-		          <p>
-		            <label>June 31,2015 at 12:30pm</label>
-	              </p>
-		          <h5><a href="single.html">文章标题</a><a href="single.html">文章标题</a><a href="single.html">文章标题</a></h5>
-		          <p><span class="text">Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. </span></p>
-	            </div>
-		        <div class="clearfix"> </div>
-	          </div>
-		      <div class="fig-txt">
-		        <div class="fig-txt-fig"></div>
 		        <p>&nbsp;</p>
-		        <p><span class="fig-txt-fig"><img src="images/s-1.jpg" width="450" height="200"  alt=""/></span></p>
-		        <div class="fig-txt-text">
-		          <p>
-		            <label>June 31,2015 at 12:30pm</label>
-	              </p>
-		          <h5><a href="single.html">文章标题</a><a href="single.html">文章标题</a><a href="single.html">文章标题</a></h5>
-		          <p><span class="text">Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. </span></p>
-		          <p>&nbsp;</p>
-		          <h5><span class="text"><a href="frame.html">更多文章&gt;&gt;</a></span></h5>
-	            </div>
-		        <div class="clearfix"> </div>
-	          </div>
+	          <?php }}?>
 	        </div>
 		    <div class="categories">
 		      <h3>&nbsp;</h3>

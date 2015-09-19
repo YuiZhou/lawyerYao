@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>姚律师在线·关于我们</title>
+	<title>姚律师在线·文章浏览</title>
 	<?php require "component/reference.php";?>
 </head>
 

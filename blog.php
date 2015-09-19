@@ -3,6 +3,7 @@
 	require("./conf/configure.php");
 	require("./conf/HttpClient.class.php");
 	$client = new HttpClient(HOST);
+	$type = "";
 
 	$limit = 5;
 	$displayCount = 0;
@@ -40,7 +41,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>姚律师在线·最新动态</title>
+	<title>姚律师在线·文章浏览</title>
 	<?php require "component/reference.php";?>
 </head>
 

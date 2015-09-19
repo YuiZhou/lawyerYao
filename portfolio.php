@@ -29,7 +29,7 @@
 			</ul>
 			<div class="container">
 				<?php 
-					if( !$client -> get(LIB_PATH."/Home/index/getLatestCollections/number/7")){
+					if( !$client -> get(LIB_PATH."/Home/index/getPortfolioCollections/number/9")){
 						echo "网络错误";
 					}else{
 						$value = $client -> getContent();
