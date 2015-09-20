@@ -6,20 +6,20 @@
 				<span></span>
 			</div>
 			<div class="msg-right">
-				<a href="frame.html">联系我们</a>
+				<a href="contact.php">联系我们</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 		<div class="footer-middle">
 			<ul>
 				<li>
-					<a href="frame.html" class="dri"></a>
+					<a href="contact.php" class="dri"></a>
 				</li>
 				<li>
-					<a href="frame.html" class="v1"></a>
+					<a href="contact.php" class="v1"></a>
 				</li>
 				<li>
-					<a href="frame.html" class="twit"></a>
+					<a href="contact.php" class="twit"></a>
 				</li>
 			</ul>
 		</div>
@@ -27,9 +27,7 @@
 			<div class="footer-right">
 				<p>Copyright &copy; 2015 姚律师在线</p>
 				<p>
-					All rights reserved. Learabesques
-					<a href="http://www.cssmoban.com/" ></a>
-					Studio
+					All rights reserved. Learabesques Studio
 				</p>
 			</div>
 			<p>&nbsp;</p>

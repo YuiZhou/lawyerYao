@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>姚律师在线·关于我们</title>
+	<title>姚律师在线·经典案例</title>
 	<?php require "component/reference.php";?>
 </head>
 
@@ -101,3 +101,6 @@
 	<?php require "component/footer.php"; ?>
 </body>
 </html>
+<script type="text/javascript">
+	active("portfolioIndicator");
+</script>

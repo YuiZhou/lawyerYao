@@ -82,7 +82,7 @@
 		  </div>
 		  <div class="blog-right">
 		    <div class="recent">
-		      <h1><a href="single.html">经典案例展示</a></h1>
+		      <h1><a href="portfolio.php">经典案例展示</a></h1>
 		      <?php 
 					if( !$client -> get(LIB_PATH."/Home/index/getPortfolioCollections/number/3")){
 						echo "网络错误";
@@ -99,7 +99,7 @@
 		          <p>
 		            <label><?php echo $item["date"];?></label>
 	              </p>
-		          <h5><a href="single.html"><?php echo $item["title"];?></a></h5>
+		          <h5><a href="article.php?id=<?php echo $item["id"];?>"><?php echo $item["title"];?></a></h5>
 		          <p><span class="text"><?php echo $item["content"];?></span></p>
 	            </div>
 		        <div class="clearfix"> </div>
@@ -119,3 +119,6 @@
 	<?php require "component/footer.php"; ?>
 </body>
 </html>
+<script type="text/javascript">
+	active("homeIndicator");
+</script>
