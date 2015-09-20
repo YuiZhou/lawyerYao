@@ -38,7 +38,7 @@
 						// [{"content":"\u4f60\u597d","id":"23","author":"wo","date":"2015-07-30 20:46:23"}]
 		    			?>
 						<li>
-							<a href='single.php?p=<?php echo $item["id"]?>'><?php echo $item["title"]?></a>
+							<a href='article.php?p=<?php echo $item["id"]?>'><?php echo $item["title"]?></a>
 							<br/>
 							<?php echo $item["date"]?></li>
 							<?php 
