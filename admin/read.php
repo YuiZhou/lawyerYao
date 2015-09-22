@@ -16,13 +16,15 @@
 		$value = $client -> getContent();
 		$item = json_decode(trim($value), true);
 		// {"id":"3","for_news":"1","for_comment":null,"author":"a","mail":"a","content":"a","date":"2015-07-25 16:00:58"
+		$client -> get(LIB_PATH."/Admin/Index/readNotification/username/".$username."/commentId/".$commentId);
+		// echo LIB_PATH."/Admin/Index/readNotification/username/".$username."/commentId/".$commentId."\n";
+
 		if($item["for_news"] == NULL){
 			header("location:../contact.php?comment=$commentId");
 		}else{
 			header("location:../single.php?p=".$item["for_news"]);
 		}
 
-		$client -> get(LIB_PATH."/Admin/Index/readNotification/username/".$USER."/commentId/".$commentId);
 	}
 
 ?>

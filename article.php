@@ -39,7 +39,7 @@
 							<p>&nbsp;</p>
 							<?php 
 							if($item["thumb"]!=NULL){
-								echo "<img src='".$item["thumb"]."'' style='max-width:640px; max-height:360px;'/>";
+								echo "<img src='".$item["thumb"]."'' style='max-width:100%; max-height:360px;'/>";
 							}
 							?>
 							<p>&nbsp;</p>

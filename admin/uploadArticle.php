@@ -41,8 +41,8 @@
       // post link
 
       // echo "content is :".$value;
-      if($value == "true"){
-        header("location:../blog.php");
+      if($value != "false"){
+        header("location:../article.php?p=".$value);
       }else{
         header("Location: ../result.php?res=上传文章失败&url=edit.php");
       }

@@ -99,7 +99,7 @@
 		          <p>
 		            <label><?php echo $item["date"];?></label>
 	              </p>
-		          <h5><a href="article.php?id=<?php echo $item["id"];?>"><?php echo $item["title"];?></a></h5>
+		          <h5><a href="article.php?p=<?php echo $item["id"];?>"><?php echo $item["title"];?></a></h5>
 		          <p><span class="text"><?php echo $item["content"];?></span></p>
 	            </div>
 		        <div class="clearfix"> </div>

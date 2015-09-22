@@ -19,6 +19,16 @@
 			header("Location: ../result.php?res=上传图片失败&url=about.php");
 			return;
 		}
+	}else if($type == "password"){
+		$old["username"] = $username;
+		$old["password"] = $_POST['old'];
+
+		var_dump($old);
+		if(!($value = $client -> quickPost(LIB_PATH."/Admin/index/login", $old)) || $value == "false"){
+			header("Location: ../result.php?res=原密码输入错误&url=changeProfile.php");
+			return;
+		}
+		$content = $_POST['password'];
 	}else{
 		header("Location:..\about.php");
 		return;

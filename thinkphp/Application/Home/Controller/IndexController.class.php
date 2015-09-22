@@ -71,19 +71,18 @@ class IndexController extends Controller {
     	$username=strip_tags($username);//去除html标记  
     	$username=preg_replace($pattern,'',$username);
 
-    	if($toComment != ""){
-    		// echo "true";
-            // receiver's mail and username
-			sendMail($mail, $username, $content);
-            $username = "Admin";
-    	}
+    	
         $model = M("comment");
+
         $data["for_news"] = $article == "" ? NULL : $article;
         $data["for_comment"] = $toComment == "" ? NULL : $toComment;
         $data["author"] = $username;
         $data["mail"] = $mail;
         $data["content"] = $content;
-
+        if($toComment != ""){
+            $data["author"] = "Admin";
+            $data["mail"] = "";
+        }
         //var_dump($data);
         try{
             $res = $model -> add($data);
@@ -92,6 +91,11 @@ class IndexController extends Controller {
             return false;
         }
     	echo "true";
+        if($toComment != ""){
+            // echo "true";
+            // receiver's mail and username
+            sendMail($mail, $username, $content);
+        }
     	return true;
     }
 

@@ -25,6 +25,25 @@ class IndexController extends Controller {
         return false;
     }
 
+    // public function setPassword() {
+    //     $model = M("user");
+    //     $username = I("post.username");
+    //     $password = I("post.password");     
+    //     $data["username"] = $username;
+    //     $data["password"] = $password;
+    //     $res = $model -> save($data);
+
+    //     // echo $model -> getLastSql();
+    //     // echo "\n".$res;
+
+    //     if($res != null){
+    //         echo "true";
+    //         return true;
+    //     }
+    //     echo "false";
+    //     return false;
+    // }
+
     public function getUsers(){
         $model = M("user");
         $res = $model -> field("`name`,`username`") -> select();
@@ -89,7 +108,7 @@ class IndexController extends Controller {
         // var_dump($linkarr);
         $linkModel -> addAll($linkarr);
         // echo $linkModel -> getLastSql();
-        echo "true";
+        echo $newsId;
         return true;
     }
 
@@ -110,7 +129,8 @@ class IndexController extends Controller {
         $data["comment_id"] = $commentId;
 
         $res = $model -> where($data) -> delete();
-
+        echo $model -> getLastSql();
+        return true;
         // $this -> ajaxReturn($res,"json");
     }
 
@@ -127,7 +147,12 @@ class IndexController extends Controller {
      */
     public function getComment($commentId){
         $model = M("comment");
-        $res = $model -> select($commentId);
+        $forCmdId = $model -> field("for_comment") -> find($commentId);
+        $forCmdId = $forCmdId["for_comment"];
+        $parentId = ($forCmdId == null) ? $commentId : $forCmdId;
+
+        $res = $model -> where("`id`= $parentId or `for_comment`= $parentId") -> select();
+
         $this -> ajaxReturn($res,"json");
     }
 
